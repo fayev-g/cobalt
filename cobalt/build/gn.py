@@ -77,6 +77,7 @@ _COBALT_TVOS_PLATFORMS = [
     'tvos-arm64',
 ]
 
+
 def write_build_args(build_args_path, platform_args_path, build_type, use_rbe):
   """ Write args file, modifying settings for config"""
   gen_comment = '# Set by gn.py'
